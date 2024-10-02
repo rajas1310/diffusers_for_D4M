@@ -116,6 +116,9 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
         )
         from .pipeline_stable_diffusion_img2img import StableDiffusionImg2ImgPipeline
         from .pipeline_stable_diffusion_inpaint import StableDiffusionInpaintPipeline
+        from .pipeline_stable_diffusion_gen_latents import StableDiffusionGenLatentsPipeline
+        from .pipeline_stable_diffusion_latents2img import StableDiffusionLatents2ImgPipeline
+        
         from .pipeline_stable_diffusion_instruct_pix2pix import (
             StableDiffusionInstructPix2PixPipeline,
         )

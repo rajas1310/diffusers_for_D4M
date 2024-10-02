@@ -626,6 +626,8 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
             RePaintPipeline,
             ScoreSdeVePipeline,
             StableDiffusionMixin,
+            StableDiffusionGenLatentsPipeline,
+            StableDiffusionLatents2ImgPipeline
         )
         from .schedulers import (
             AmusedScheduler,

@@ -599,6 +599,8 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
             StableDiffusionUpscalePipeline,
             StableUnCLIPImg2ImgPipeline,
             StableUnCLIPPipeline,
+            StableDiffusionLatents2ImgPipeline,
+            StableDiffusionGenLatentsPipeline
         )
         from .stable_diffusion_3 import (
             StableDiffusion3Img2ImgPipeline,
